@@ -6,7 +6,7 @@ export default function html([first, ...strings], ...values){
     .join('');
 }
 
-export function creatStore(reducer){
+export function createStore(reducer){
     let state = reducer();
 
     const roots = new Map();

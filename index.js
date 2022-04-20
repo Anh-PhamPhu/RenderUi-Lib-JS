@@ -1,4 +1,3 @@
-const car = ['BMW', 'Honda', 'Toyota'];
+import { attach } from "./store.js";
 
-const app = document.querySelector('#app');
-
+attach('<h1>Hello Word </h1>', document.getElementById('app'))
